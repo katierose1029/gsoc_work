@@ -1,0 +1,10 @@
+decorators -> easily wrap functions, register with a fucntion
+def my_function(a,b,c):
+return a + b + c
+
+def add_third_argument(third):
+    def setup(function):
+        def wrapper(a,b):
+            return function(a,b,c)
+        return wrapper
+    return setup
