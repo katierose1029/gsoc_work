@@ -1,0 +1,312 @@
+[mpl-testing][KaitlynChait][~] ➤  ipython
+Python 3.6.2 |Continuum Analytics, Inc.| (default, Jul 20 2017, 13:14:59)
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.1.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: import matplotlib
+   ...: from matplotlib._traits.artist import Artist
+   ...: from matplotlib._traits.traits import *
+   ...: import numpy as np
+   ...: import matplotlib.pyplot as plt
+
+In [2]: plt.plot([4, 3, 2, 1])
+   ...: plt.ylabel('some numbers')
+   ...: plt.show()
+stale_callback: observed a change from True to None
+eventson: cross validating False
+stale_callback: observed a change from True to None
+eventson: cross validating False
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+stale: cross validating True
+---------------------------------------------------------------------------
+RecursionError                            Traceback (most recent call last)
+<ipython-input-2-5f4aaac063ba> in <module>()
+----> 1 plt.plot([4, 3, 2, 1])
+      2 plt.ylabel('some numbers')
+      3 plt.show()
+
+~/Desktop/matplotlib/lib/matplotlib/pyplot.py in plot(*args, **kwargs)
+   3235 @_autogen_docstring(Axes.plot)
+   3236 def plot(*args, **kwargs):
+-> 3237     ax = gca()
+   3238     # Deprecated: allow callers to override the hold state
+   3239     # by passing hold=True|False
+
+~/Desktop/matplotlib/lib/matplotlib/pyplot.py in gca(**kwargs)
+    967     matplotlib.figure.Figure.gca : The figure's gca method.
+    968     """
+--> 969     return gcf().gca(**kwargs)
+    970
+    971 # More ways of creating axes:
+
+~/Desktop/matplotlib/lib/matplotlib/pyplot.py in gcf()
+    596         return figManager.canvas.figure
+    597     else:
+--> 598         return figure()
+    599
+    600
+
+~/Desktop/matplotlib/lib/matplotlib/pyplot.py in figure(num, figsize, dpi, facecolor, edgecolor, frameon, FigureClass, clear, **kwargs)
+    542                                         frameon=frameon,
+    543                                         FigureClass=FigureClass,
+--> 544                                         **kwargs)
+    545
+    546         if figLabel:
+
+~/Desktop/matplotlib/lib/matplotlib/backends/backend_tkagg.py in new_figure_manager(num, *args, **kwargs)
+     77     """
+     78     FigureClass = kwargs.pop('FigureClass', Figure)
+---> 79     figure = FigureClass(*args, **kwargs)
+     80     return new_figure_manager_given_figure(num, figure)
+     81
+
+~/Desktop/matplotlib/lib/matplotlib/figure.py in __init__(self, figsize, dpi, facecolor, edgecolor, linewidth, frameon, subplotpars, tight_layout)
+    342         self.patch = Rectangle(
+    343             xy=(0, 0), width=1, height=1,
+--> 344             facecolor=facecolor, edgecolor=edgecolor, linewidth=linewidth)
+    345         self._set_artist_props(self.patch)
+    346         self.patch.set_aa(False)
+
+~/Desktop/matplotlib/lib/matplotlib/patches.py in __init__(self, xy, width, height, angle, **kwargs)
+    687         """
+    688
+--> 689         Patch.__init__(self, **kwargs)
+    690
+    691         self._x = float(xy[0])
+
+~/Desktop/matplotlib/lib/matplotlib/patches.py in __init__(self, edgecolor, facecolor, color, linewidth, linestyle, antialiased, hatch, fill, capstyle, joinstyle, **kwargs)
+    123             self.set_color(color)
+    124         else:
+--> 125             self.set_edgecolor(edgecolor)
+    126             self.set_facecolor(facecolor)
+    127         # unscaled dashes.  Needed to scale dash patterns by lw
+
+~/Desktop/matplotlib/lib/matplotlib/patches.py in set_edgecolor(self, color)
+    312         """
+    313         self._original_edgecolor = color
+--> 314         self._set_edgecolor(color)
+    315
+    316     def set_ec(self, color):
+
+~/Desktop/matplotlib/lib/matplotlib/patches.py in _set_edgecolor(self, color)
+    303         if set_hatch_color:
+    304             self._hatch_color = self._edgecolor
+--> 305         self.stale = True
+    306
+    307     def set_edgecolor(self, color):
+
+~/anaconda3/envs/mpl-testing/lib/python3.6/site-packages/traitlets/traitlets.py in __set__(self, obj, value)
+    583             raise TraitError('The "%s" trait is read-only.' % self.name)
+    584         else:
+--> 585             self.set(obj, value)
+    586
+    587     def _validate(self, obj, value):
+
+~/anaconda3/envs/mpl-testing/lib/python3.6/site-packages/traitlets/traitlets.py in set(self, obj, value)
+    557
+    558     def set(self, obj, value):
+--> 559         new_value = self._validate(obj, value)
+    560         try:
+    561             old_value = obj._trait_values[self.name]
+
+~/anaconda3/envs/mpl-testing/lib/python3.6/site-packages/traitlets/traitlets.py in _validate(self, obj, value)
+    591             value = self.validate(obj, value)
+    592         if obj._cross_validation_lock is False:
+--> 593             value = self._cross_validate(obj, value)
+    594         return value
+    595
+
+~/anaconda3/envs/mpl-testing/lib/python3.6/site-packages/traitlets/traitlets.py in _cross_validate(self, obj, value)
+    597         if self.name in obj._trait_validators:
+    598             proposal = Bunch({'trait': self, 'value': value, 'owner': obj})
+--> 599             value = obj._trait_validators[self.name](obj, proposal)
+    600         elif hasattr(obj, '_%s_validate' % self.name):
+    601             meth_name = '_%s_validate' % self.name
+
+~/anaconda3/envs/mpl-testing/lib/python3.6/site-packages/traitlets/traitlets.py in __call__(self, *args, **kwargs)
+    905         """Pass `*args` and `**kwargs` to the handler's function if it exists."""
+    906         if hasattr(self, 'func'):
+--> 907             return self.func(*args, **kwargs)
+    908         else:
+    909             return self._init_call(*args, **kwargs)
+
+~/Desktop/matplotlib/lib/matplotlib/_traits/artist.py in _stale_validate(self, proposal)
+    129     def _stale_validate(self, proposal):
+    130         print("stale: cross validating %r" % proposal.value)
+--> 131         self.stale=proposal.value
+    132         if self.animated is True:
+    133             return proposal.value
+
+... last 6 frames repeated, from the frame below ...
+
+~/anaconda3/envs/mpl-testing/lib/python3.6/site-packages/traitlets/traitlets.py in __set__(self, obj, value)
+    583             raise TraitError('The "%s" trait is read-only.' % self.name)
+    584         else:
+--> 585             self.set(obj, value)
+    586
+    587     def _validate(self, obj, value):
+
+RecursionError: maximum recursion depth exceeded
+
+In [3]:
