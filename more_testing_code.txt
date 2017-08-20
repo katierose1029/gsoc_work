@@ -1,0 +1,779 @@
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
+
+    # default
+    @default("")
+    def __default(self):
+        print(" : generating default value")
+        return False
+    # validate
+    @validate("")
+    def __validate(self, proposal):
+        print(": cross validating %r" % proposal.value)
+        return proposal.value
+    # observer
+    @observe("", type="change")
+    def __observe(self, change):
+        print(": observed a change from %r to %r" % (change.old, change.new))
